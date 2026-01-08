@@ -34,12 +34,40 @@ body{
     font-size: 16px;
     font-weight: 600;
     color: #fff;
+    transition: 1s;
+}
+.primary-btn:hover{
+    background-color: #262D3B;
+    border: 1px solid #fff;
+}
+.secondary-btn{
+    background-color: transparent;
+    padding: 12.5px 16px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    transition: 1s;
+}
+
+.secondary-btn:hover{
+    background-color: #469165;
+}
+
+.primary-btn i{
+    margin-left: 10px;
+}
+.secondary-btn i{
+    margin-right: 10px;
 }
 
 
 /* others CSS */
+
+    /* for-header-section */
 header{
-    padding: 16px 0;
+    padding: 10px 0;
 }
 
 .logo img{
@@ -52,6 +80,52 @@ nav a{
     font-size: 16px;
     font-weight: 500;
     color: #000000;
-    
+}
 
+    /* for-banner-section */
+#banner{
+    background: url(assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 115px 0;
+    
+}
+.banner-container{
+    text-align: center;
+}
+.banner-content h4{
+    width: 230px;
+    background-color: #fff;
+    color: #469165;
+    margin: 0 auto;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 16px;
+    
+}
+
+.banner-content h1{
+    font-size: 72px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 84px;
+    margin-bottom: 16px;
+}
+
+.tomato-color{
+    color: #30B868;
+    display: block;
+}
+
+
+.banner-content p{
+    font-size: 18px;
+    color: #fff;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.banner-btn .primary-btn{
+    margin-right: 16px;
 }
