@@ -1,0 +1,57 @@
+/* link-google-font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* universal-selector */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+      font-family: "Inter", sans-serif;
+}
+
+/* utility class */
+
+.container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.primary-btn{
+    background-color: #469165;
+    padding: 12.5px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+/* others CSS */
+header{
+    padding: 16px 0;
+}
+
+.logo img{
+    width: 139px;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    
+
+}
