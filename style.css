@@ -164,6 +164,10 @@ nav a{
     margin-top: 16px;
 }
 
+.card-box{
+    gap: 16px;
+}
+
 .card{
     max-width: 322px;
     height: 300px;
@@ -174,6 +178,12 @@ nav a{
     gap: 16px;
     text-align: center;
     box-shadow: 0 0 8px 0 #00000012;
+    
+}
+
+.card:hover{
+    border: 1px solid #F95555;
+
 }
 
 .card img{
@@ -249,6 +259,49 @@ ul{
 
 .early-access-container h2{
     font-size: 40px;
+}
+
+
+/* for footer */
+
+footer{
+    background-color: #001931;
+    padding: 120px 0 30px 0;
+}
+
+
+.social h5{
+    font-size: 20px;
+    font-family: 500;
+    line-height: 28px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.social-icon {
+    display: flex;
+    gap: 16px;
+}
+.social-icon a i{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: white;
+    padding: 8px;
+}
+
+.copyright-area{
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 30px;
+    border-top: 1px solid #e5e7eb20;
+
+}
+
+.copyright-area small{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
 }
 
 
