@@ -71,7 +71,9 @@ h2{
 h3{
     font-size: 24px;
     font-weight: 600;
-    color: #001931;
+    color: #001931
+    
+        ;
 }
 
 p{
@@ -164,6 +166,7 @@ nav a{
 
 .card{
     max-width: 322px;
+    height: 300px;
     padding: 70px 24px;
     border-radius: 8px;
     display: flex;
@@ -181,5 +184,50 @@ nav a{
     border-radius: 50%;
     align-self: center;
 }
+
+    /* for-brain-section */
+
+.brain-container{
+        gap: 60px;
+    }
+.brain-img img{
+        width: 600px;
+    }
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.list-item ul{
+        list-style: none;
+    }
+
+.list-item ul li{
+    display: flex;
+    gap: 6px;
+}
+
+.list-item li img{
+    width: 20px;
+    height: 20px;
+    
+    
+    
+}
+
+.brain-content h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+}
+
+.brain-content h2,h4,p{
+    margin-bottom: 16px;
+}
+
+
 
 
